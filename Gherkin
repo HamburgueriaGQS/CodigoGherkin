@@ -3,28 +3,27 @@ Funcionalidade: Cadastro de Usuario
 	para poder efetuar o login.
 
 	Dado que Usuario ainda não possua uma conta
-
-	Cenario: Cadastro 
-		E ao terminar ele faça o envio dos dados
-		Quando Terminar de efetuar o envio
-		Entao Deve haver um mensagem de confirmação de cadastro na tela
+Cenario: Cadastro 
+	E ao terminar ele faça o envio dos dados
+	Quando Terminar de efetuar o envio
+	Entao Deve haver um mensagem de confirmação de cadastro na tela
 	
-	Cenario: Email não informado
-	 	E ao tentar efetuar o cadastro sem informar o email
-		Quando O usuario clicar no botão de cadastrar
-		Entao o sistema deve mostrar uma mensagem de aviso "Por favor, informe seu email." 
+Cenario: Email não informado
+	E ao tentar efetuar o cadastro sem informar o email
+	Quando O usuario clicar no botão de cadastrar
+	Entao o sistema deve mostrar uma mensagem de aviso "Por favor, informe seu email." 
 
-	Cenario: Senha não informada
-		E ao tentar efetuar o cadastro sem informar a senha 
-		Quando o usuario tentar clicar no botão de cadastrar
-		Entao o sistema deve mostrar uma mensagem de aviso "Por favor, informe sua senha." 
+Cenario: Senha não informada
+	E ao tentar efetuar o cadastro sem informar a senha 
+	Quando o usuario tentar clicar no botão de cadastrar
+	Entao o sistema deve mostrar uma mensagem de aviso "Por favor, informe sua senha." 
     
-  Cenario: Senha divergente
-		E ao tentar efetuar o cadastro com senha de confirmação diferente
-		Quando o usuario clicar no botão de cadastrar
-		Entao o sistema deve mostrar uma mensagem de aviso "Senha não correspondem!"
+Cenario: Senha divergente
+	E ao tentar efetuar o cadastro com senha de confirmação diferente
+	Quando o usuario clicar no botão de cadastrar
+	Entao o sistema deve mostrar uma mensagem de aviso "Senha não correspondem!"
 	
-  Cenario: Nenhum Campo Preenchido
-		E ao tentar efetuar o cadastro de um novo usuario
-		Quando O usuario tentar clicar no botão de cadastrar
-		Entao o sistema deve mostrar uma mensagem de aviso "Campos obrigatorios não preenchidos"
+Cenario: Nenhum Campo Preenchido
+	E ao tentar efetuar o cadastro de um novo usuario
+	Quando O usuario tentar clicar no botão de cadastrar
+	Entao o sistema deve mostrar uma mensagem de aviso "Campos obrigatorios não preenchidos"
